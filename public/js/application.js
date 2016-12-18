@@ -7,15 +7,17 @@ $(document).ready(function() {
         $('a').fadeTo('fast', 1);
     });
 
-    $('a').on('click', function(e){
+    $('#home').click(function() {
+      $('#content').hide();
+    });
+
+    $('.navigation').on('click', function(e){
       e.preventDefault();
+      $('#content').show();
       var page = $(this).attr('href');
 
       callPage(page);
 
-      $('#home').click(function() {
-        $('#content').hide();
-      });
     });
 
     function callPage(page){
