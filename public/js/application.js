@@ -1,6 +1,3 @@
-// example taken from CodeAcademy exercise. Makes button fade in and out when selected
-// by the cursor, may be fun to experiment with on site
-
 $(document).ready(function() {
     $('a').mouseover(function() {
         $('a').fadeTo('fast', 0.6);
@@ -17,15 +14,15 @@ $(document).ready(function() {
       callPage(page);
 
       $('#home').click(function() {
-        ('#content').hide();
+        $('#content').hide();
       });
     });
 
     function callPage(page){
-      var request = $.ajax({
+      $.ajax({
         url: page,
-        method: "GET",
-
+        type: "GET",
+        dataType: "text",
 
         success: function(response) {
           console.log('The page loaded successfully!', response);
@@ -40,8 +37,3 @@ $(document).ready(function() {
     }
 
 });
-
-// jquery effects: https://api.jquery.com/category/effects/
-
-// jquery projects to try:
-// birdman
