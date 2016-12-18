@@ -17,15 +17,15 @@ $(document).ready(function() {
       callPage(page);
 
       $('#home').click(function() {
-        $('#content').hide();
+        ('#content').hide();
       });
     });
 
     function callPage(page){
-      $.ajax({
+      var request = $.ajax({
         url: page,
-        type: "GET",
-        dataType: "text",
+        method: "GET",
+
 
         success: function(response) {
           console.log('The page loaded successfully!', response);
