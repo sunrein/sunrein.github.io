@@ -2,13 +2,22 @@
 // by the cursor, may be fun to experiment with on site
 
 $(document).ready(function() {
-    $('a').mouseover(function() {
-        $('a').fadeTo('fast', 0.6);
+    $('#contact-info').hide();
+
+    $('button').mouseover(function() {
+        $('button').fadeTo('fast', 0.6);
     });
 
-    $('a').mouseleave(function() {
-        $('a').fadeTo('fast', 1);
+    $('button').mouseleave(function() {
+        $('button').fadeTo('fast', 1);
     });
+
+    $('#contact').click(function() {
+        $('#index').hide();
+        $('#about').hide();
+        $('#contact-info').show();
+    });
+
 });
 
 // jquery effects: https://api.jquery.com/category/effects/

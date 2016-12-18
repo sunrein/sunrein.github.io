@@ -1,4 +1,8 @@
-a{
+a {
 	text-decoration: none;
 	color: blue;
+}
+
+#index {
+  background-color: blue;
 }
