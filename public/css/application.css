@@ -30,3 +30,10 @@ body {
 .skills {
 	list-style-type: none;
 }
+
+a > img {
+	display:inline;
+	padding-top: 10%;
+	height:3em;
+	width:3em;
+}
