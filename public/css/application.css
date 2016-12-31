@@ -4,4 +4,25 @@ a {
 }
 
 #header {
+	padding-top: 5%;
+}
+
+#navigation-bar {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+body {
+	text-align: center;
+}
+
+#intro {
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#content {
+	padding-right: 20%;
+	padding-left: 20%;
 }
