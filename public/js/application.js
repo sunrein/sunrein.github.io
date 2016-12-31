@@ -11,7 +11,6 @@ $(document).ready(function() {
       var page = $(this).attr('href');
 
       callPage(page);
-
     });
 
     function callPage(page){
