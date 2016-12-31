@@ -1,19 +1,13 @@
 $(document).ready(function() {
-    $('a').mouseover(function() {
-        $('a').fadeTo('fast', 0.6);
-    });
-
-    $('a').mouseleave(function() {
-        $('a').fadeTo('fast', 1);
-    });
-
     $('#home').click(function() {
       $('#content').hide();
+      $('#intro').show();
     });
 
     $('.navigation').on('click', function(e){
       e.preventDefault();
       $('#content').show();
+      $('#intro').hide();
       var page = $(this).attr('href');
 
       callPage(page);
