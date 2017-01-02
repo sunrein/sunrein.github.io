@@ -4,10 +4,11 @@ a {
 }
 
 #picture-of-me {
-	height:300px;
+	height: 300px;
 	width: auto;
 	margin: 1em;
 	border: 1px solid black;
+	border-radius: 50%;
 }
 
 #header {
