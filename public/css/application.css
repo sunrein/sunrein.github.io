@@ -3,6 +3,13 @@ a {
 	color: blue;
 }
 
+#picture-of-me {
+	height:300px;
+	width: auto;
+	margin: 1em;
+	border: 1px solid black;
+}
+
 #header {
 	padding-top: 5%;
 }
