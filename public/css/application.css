@@ -28,14 +28,20 @@ body {
 #intro {
 	padding-right: 20%;
 	padding-left: 20%;
+	padding-bottom: 2%;
 }
 
 #content {
 	padding-right: 20%;
 	padding-left: 20%;
+	padding-bottom: 2%;
 }
 
 .skills {
+	list-style-type: none;
+}
+
+.wishlist {
 	list-style-type: none;
 }
 
