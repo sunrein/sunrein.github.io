@@ -1,9 +1,22 @@
 a {
 	text-decoration: none;
-	color: #B468DE;
+	color: black;
+	font-size: 1.3em;
+}
+
+#main {
+	background-color: white;
+	display: inline-block;
+	width: 60%;
+	box-shadow: 10px 10px 5px #C5D8D2;
+}
+
+.current {
+	text-decoration: underline;
 }
 
 #picture-of-me {
+	display: inline-block;
 	height: 20em;
 	width: auto;
 	margin: 1em;
@@ -24,19 +37,32 @@ a {
 }
 
 #navigation-bar {
-	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 8%;
+}
+
+.nav-item {
+	float: left;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
 }
 
 body {
 	text-align: center;
+	background-color: #E4FDF5;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #intro {
-	padding-right: 20%;
-	padding-left: 20%;
-	padding-bottom: 2%;
+	margin: auto;
+	width: 75%;
+	font-size: 1.3em;
 }
 
 #content {
@@ -61,6 +87,6 @@ hr {
 
 a > img {
 	display:inline;
-	height:5em;
-	width:5em;
+	height:3em;
+	width:3em;
 }
