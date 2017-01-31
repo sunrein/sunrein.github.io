@@ -35,6 +35,10 @@
 	border-radius: 50%;
 }
 
+#python {
+	color: #7FA890;
+}
+
 /* Type Selectors */
 
 body {
@@ -98,4 +102,12 @@ li {
 
 .wishlist {
 	list-style-type: none;
+}
+
+a:hover {
+	color: #DEB9DE;
+}
+
+#python:hover {
+	color: #DEB9DE;
 }
