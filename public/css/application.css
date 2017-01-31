@@ -18,13 +18,6 @@
 	font-size: 1.3em;
 }
 
-#main {
-	background-color: #f0f4f4;
-	display: inline-block;
-	width: 75%;
-	border: 2px solid #eee;
-}
-
 #picture-of-me {
 	display: inline-block;
 	height: 20em;
@@ -72,14 +65,21 @@ a > img {
 
 ul {
 	list-style-type: none;
-	text-align: center;
 }
 
 li {
-	display: inline-block;
+
 }
 
 /* Class Selectors */
+
+.main {
+	background-color: #f0f4f4;
+	display: inline-block;
+	width: 75%;
+	border: 2px solid #eee;
+	padding-bottom: 25px;
+}
 
 .current {
 	text-decoration: underline;
@@ -89,6 +89,7 @@ li {
 	color: black;
 	padding-left: 16px;
 	text-decoration: none;
+	display: inline-block;
 }
 
 .skills {
