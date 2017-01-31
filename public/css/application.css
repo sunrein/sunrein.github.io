@@ -1,62 +1,15 @@
-a {
-	text-decoration: none;
-	color: black;
-	font-size: 1.3em;
-}
-
-#main {
-	background-color: white;
-	display: inline-block;
-	width: 75%;
-	box-shadow: 10px 10px 5px #E4F1EE;
-}
-
-.current {
-	text-decoration: underline;
-}
-
-#picture-of-me {
-	display: inline-block;
-	height: 20em;
-	width: auto;
-	margin: 1em;
-	border: 1px solid pink;
-	border-radius: 50%;
-}
-
-#dbc-pic {
-	height: 20em;
-	width: auto;
-	margin: 1em;
-	border: 1px solid pink;
-	border-radius: 50%;
-}
+/* ID Styles */
 
 #header {
 	padding-top: 5%;
 }
 
 #navigation-bar {
-	margin: auto;
-	width: 50%;
-	padding-bottom: 8%;
-}
-
-.nav-item {
-	float: left;
-	color: black;
-	padding: 16px;
-	text-decoration: none;
-}
-
-ul {
-	list-style-type: none;
-}
-
-body {
-	text-align: center;
-	background-color: #E4FDF5;
-	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	background-color: #f0f4f4;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	border-bottom: 1px solid #E4F1EE;
 }
 
 #intro {
@@ -65,10 +18,77 @@ body {
 	font-size: 1.3em;
 }
 
-#content {
-	padding-right: 20%;
-	padding-left: 20%;
-	padding-bottom: 2%;
+#main {
+	background-color: #f0f4f4;
+	display: inline-block;
+	width: 75%;
+	border: 2px solid #eee;
+}
+
+#picture-of-me {
+	display: inline-block;
+	height: 20em;
+	width: auto;
+	margin: 1em;
+	border: 2px solid #FAE7F7;
+	border-radius: 50%;
+}
+
+#dbc-pic {
+	height: 20em;
+	width: auto;
+	margin: 1em;
+	border: 1px solid #D3F4DC;
+	border-radius: 50%;
+}
+
+/* Type Selectors */
+
+body {
+	text-align: center;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.6em;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.2em;
+}
+
+a > img {
+	display:inline;
+	height:3em;
+	width:3em;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+/* Class Selectors */
+
+.current {
+	text-decoration: underline;
+}
+
+.nav-item {
+	color: black;
+	padding-left: 16px;
+	text-decoration: none;
 }
 
 .skills {
@@ -77,16 +97,4 @@ body {
 
 .wishlist {
 	list-style-type: none;
-}
-
-hr {
-	height: 1px;
-  border: 0;
-  border-top: 1px solid #E8DFE8;
-}
-
-a > img {
-	display:inline;
-	height:3em;
-	width:3em;
 }
