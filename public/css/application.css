@@ -6,10 +6,10 @@
 
 #navigation-bar {
 	margin: 0;
-	background-color: #f0f4f4;
+	background-color: #ECECEC;
 	padding-bottom: 1%;
 	padding-top: 1%;
-	border-bottom: 1px solid #E4F1EE;
+	border-bottom: 2px solid #10AAF7;
 }
 
 #intro {
@@ -35,15 +35,11 @@
 	border-radius: 50%;
 }
 
-#python {
-	color: #7FA890;
-}
-
 /* Type Selectors */
 
 body {
 	text-align: center;
-	background-color: white;
+	background-image: url("../../imgs/stardust.png");
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -51,7 +47,11 @@ body {
 	letter-spacing: 1px;
 }
 
-a {
+h1 {
+	color: white;
+}
+
+nav a {
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
@@ -78,10 +78,10 @@ li {
 /* Class Selectors */
 
 .main {
-	background-color: #f0f4f4;
+	background-color: #ECECEC;
 	display: inline-block;
 	width: 75%;
-	border: 2px solid #eee;
+	border: 2px solid #E1E1E1;
 	padding-bottom: 25px;
 }
 
@@ -104,10 +104,29 @@ li {
 	list-style-type: none;
 }
 
+.content {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.heading {
+	font-size: 1.5em
+}
+
+.contact {
+	color: white;
+	font-size: 26px;
+}
+
+.external-link {
+	color: #7FA890;
+	text-decoration: none;
+}
+
 a:hover {
 	color: #DEB9DE;
 }
 
-#python:hover {
+.external-link:hover {
 	color: #DEB9DE;
 }
