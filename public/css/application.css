@@ -6,6 +6,7 @@
 
 #navigation-bar {
 	margin: 0;
+	width: 100%;
 	background-color: #ECECEC;
 	padding-bottom: 1%;
 	padding-top: 1%;
@@ -19,7 +20,6 @@
 }
 
 #picture-of-me {
-	display: inline-block;
 	height: 20em;
 	width: auto;
 	margin: 1em;
@@ -100,10 +100,6 @@ li {
 	list-style-type: none;
 }
 
-.wishlist {
-	list-style-type: none;
-}
-
 .heading {
 	font-size: 1.5em
 }
@@ -124,4 +120,24 @@ a:hover {
 
 .external-link:hover {
 	color: #DEB9DE;
+}
+
+
+
+
+
+/*     Media queries----------- */
+
+@media (max-width: 1024px) {
+	#dbc-pic {
+		height: 10em;
+		width: auto;
+		margin: 0;
+	}
+
+	#picture-of-me {
+		height: 10em;
+		width: auto;
+		margin: 0;
+	}
 }
