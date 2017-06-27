@@ -1,58 +1,51 @@
-/* ID Styles
-*/
-
-#navigation-bar {
-	margin: 0;
-	width: 100%;
-	background-color: #ECECEC;
-	padding-bottom: 1%;
-	padding-top: 1%;
-	border-bottom: 2px solid #10AAF7;
+.nav-bar {
+  text-align: right;
+  padding-top: 10%;
 }
 
-#intro {
-	margin: auto;
-	width: 75%;
-	font-size: 1.3em;
+.nav-bar-link{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 10%;
 }
+
 #picture-of-me {
 	height: 20em;
 	width: auto;
 	border: 2px solid #FAE7F7;
 	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
 
 }
 
-#dbc-pic {
-	height: 20em;
-	width: auto;
-	margin: 1em;
-	border: 1px solid #D3F4DC;
-	border-radius: 50%;
+.cover h1 {
+  min-height: 300px;
+  font-size: 55px;
+  padding-top: 10%;
+  padding-bottom: 15%;
+
 }
 
-/* Type Selectors */
-h1 {
-	color: white;
+.about h2 {
+  font-size: 35px;
 }
-
 
 nav a {
 	text-decoration: none;
-	color: black;
+	color: #605166;
 	font-size: 18px;
-	letter-spacing: 2px;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 1.2em;
+	letter-spacing: 1.5px;
+
+}
+
+a:hover {
+  color: #9772a5;
+  text-decoration: none;
 }
 
 a > img {
 	display:inline;
-	height:3em;
-	width:3em;
+	height:5em;
+	width:5em;
 }
 
 ul {
@@ -63,20 +56,13 @@ li {
 
 }
 
-/* Class Selectors */
+/* Class Selectors
 
 .main {
 	background-color: #ECECEC;
 	display: inline-block;
 	border: 2px solid #E1E1E1;
 	padding: 25px;
-}
-
-.nav-item {
-	color: black;
-	padding-left: 16px;
-	text-decoration: none;
-	display: inline-block;
 }
 
 .skills {
@@ -106,7 +92,7 @@ a:hover {
 	color: #DEB9DE;
 }
 
-/*     Media queries----------- */
+/*     Media queries-----------
 
 @media (max-width: 1024px) {
 	#dbc-pic {
@@ -123,7 +109,7 @@ a:hover {
 }
 
 
- /* Space out content a bit */
+ /* Space out content a bit
  body {
    padding-top: 1.5rem;
    padding-bottom: 1.5rem;
@@ -136,7 +122,7 @@ a:hover {
 	 letter-spacing: 1px;
  }
 
- /* Everything but the jumbotron gets side spacing for mobile first views */
+ /* Everything but the jumbotron gets side spacing for mobile first views
  .header,
  .marketing,
  .footer {
@@ -144,12 +130,12 @@ a:hover {
    padding-left: 1rem;
  }
 
- /* Custom page header */
+ /* Custom page header
  .header {
    padding-bottom: 1rem;
    border-bottom: .05rem solid #e5e5e5;
  }
- /* Make the masthead heading the same height as the navigation */
+ /* Make the masthead heading the same height as the navigation
  .header h3 {
 	 color: white;
 	 font-size: 26px;
@@ -158,14 +144,14 @@ a:hover {
    line-height: 3rem;
  }
 
- /* Custom page footer */
+ /* Custom page footer
  .footer {
    padding-top: 1.5rem;
    color: #777;
    border-top: .05rem solid #e5e5e5;
  }
 
- /* Customize container */
+ /* Customize container
  @media (min-width: 48em) {
    .container {
      max-width: 46rem;
@@ -175,7 +161,7 @@ a:hover {
    margin: 2rem 0;
  }
 
- /* Main marketing message and sign up button */
+ /* Main marketing message and sign up button
  .jumbotron {
    text-align: center;
    border-bottom: .05rem solid #e5e5e5;
@@ -185,7 +171,7 @@ a:hover {
    font-size: 1.5rem;
  }
 
- /* Supporting marketing content */
+ /* Supporting marketing content
  .marketing {
    margin: 3rem 0;
  }
@@ -193,21 +179,22 @@ a:hover {
    margin-top: 1.5rem;
  }
 
- /* Responsive: Portrait tablets and up */
+ /* Responsive: Portrait tablets and up
  @media screen and (min-width: 48em) {
-   /* Remove the padding we set earlier */
+   /* Remove the padding we set earlier
    .header,
    .marketing,
    .footer {
      padding-right: 0;
      padding-left: 0;
    }
-   /* Space out the masthead */
+   /* Space out the masthead
    .header {
      margin-bottom: 2rem;
    }
-   /* Remove the bottom border on the jumbotron for visual effect */
+   /* Remove the bottom border on the jumbotron for visual effect
    .jumbotron {
      border-bottom: 0;
    }
  }
+
