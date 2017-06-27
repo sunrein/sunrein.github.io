@@ -1,72 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sabrina Unrein -- Home</title>
-  <link rel="stylesheet" href="public/css/normalize.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="public/css/application.css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-
+  <title>Sabrina Unrein</title>
+  <head>
+    <link rel="stylesheet" href="public/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/application.css">
+  </head>
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://sunrein.github.io/index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://sunrein.github.io/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://sunrein.github.io/skills.html">Experience</a>
-          </li>
-        </ul>
+    <div class="row">
+      <div class="col-sm-8"></div>
+      <div class="col-sm-4">
+        <header>
+          <nav class="nav-bar">
+            <a href="#about" class="nav-bar-link">About</a>
+            <a href="#skills" class="nav-bar-link">Skills</a>
+            <a href="#contact" class="nav-bar-link">Contact</a>
+          </nav>
+        </header>
       </div>
-    </nav>
+    </div>
 
-    <h1 class="header">
-      Hi!
-    </h1>
-    <div class="main">
-      <div id="intro">
-        <br>
-        <figure>
-          <img id="picture-of-me" src="imgs/athletic-me.jpg"/>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-6">
+        <div class="cover">
+          <h1>Hi! I'm Sabrina. I'm a software developer, a lover of cats & a bibliophile.</h1>
+        </div>
+      </div>
+
+      <div class="col-sm-5"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4">
+      <figure>
+          <img id="picture-of-me" src="imgs/selfie1.jpg"/>
         </figure>
-        <h2>
-          I'm Sabrina.
-        </h2>
-        I'm a software developer and Colorado native with a love of literature and cats.
-        Currently, I live in Denver.
-        I'm also passionate about women in STEM and championing diversity in engineering.
-        <br>
-        <br>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="about" id="about">
+          <h2>
+            I'm a life-long lover of learning. I spent my academic career devoted to language study, specifically English and Japanese (こんにちは！).
+            After college, I decided to combine my love of language and my love of the Internet and went to Dev Bootcamp. Professionally, I'm a Rubyist, but I have dabbled in many other languages and frameworks. I want to continue to grow so I can reach full-stack status.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="skills" id="skills">
+          <h3>
+            Professional Skills
+          </h3>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Git & Github</li>
+            <li>Agile Methodologies</li>
+            <li>See a full list on my <a href="https://www.linkedin.com/in/sabrinaunrein">LinkedIn Profile</a>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="skills" id="skills">
+          <h3>
+            Experience & Projects
+          </h3>
+          <ul>
+            <li><a href="https://github.com/sunrein/sunrein.github.io">This Site!</a>
+            <li><a href="http://www.builtincolorado.com/events/skillful-girl-develop-it-rise-and-shine-breakfast">GDI Panel: November 2016</a>
+            </li>
+            <li>
+              My Dev Bootcamp <a href="https://github.com/nbdavies/mic-drop">Final Project</a></li>
+            <li><a href="https://github.com/sunrein/womenrising">Open source contributions</a> to Women Rising with <a href="https://www.meetup.com/Equality-Hackers/">Equality Hackers</a>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</body>
-<footer>
-  <h3 class="contact">
-    Contact me!
-  </h3>
-  <div id="contact-me">
-    <a href="https://github.com/sunrein"><img src="imgs/github.png"/>
-    </a>
-    <a href="mailto:sabrina.unrein@gmail.com"><img src="imgs/mail.png"/>
-    </a>
-    <a href="https://twitter.com/sabermoon"><img src="imgs/twitter.png"/>
-    </a>
-    <a href="https://www.linkedin.com/in/sabrinaunrein"><img src="imgs/linkedin.png"/>
-    </a>
+
+  <div class="row">
+    <div class="col-sm-15">
+      <div class="contact" id="contact">
+        <h4>Ping me!</h4>
+          <p>I'm currently open to new opportunities. Let's connect :D</p>
+
+          <p class="email"><a href="mailto:sabrina.unrein@gmail.com">sabrina.unrein@gmail.com</a></p>
+      </div>
+    </div>
   </div>
-</footer>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="contact-buttons" id="contact-buttons">
+        <a href="https://github.com/sunrein"><img src="imgs/github.png"/></a>
+        <a href="mailto:sabrina.unrein@gmail.com"><img src="imgs/mail.png"/></a>
+        <a href="https://twitter.com/sabermoon"><img src="imgs/twitter.png"/></a>
+        <a href="https://www.linkedin.com/in/sabrinaunrein"><img src="imgs/linkedin.png"/></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-15">
+      <div class="end">
+        <p>Coded in Denver</p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
 </html>
