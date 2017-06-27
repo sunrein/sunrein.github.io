@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .nav-bar {
   text-align: right;
   padding-top: 10%;
@@ -11,9 +15,9 @@
 }
 
 #picture-of-me {
-	height: 20em;
-	width: auto;
-	border-radius: 50%;
+  height: 20em;
+  width: auto;
+  border-radius: 50%;
   margin-top: 50%;
 }
 
@@ -54,11 +58,10 @@ ul a {
 }
 
 nav a {
-	text-decoration: none;
-	color: #605166;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-
+  text-decoration: none;
+  color: #605166;
+  font-size: 18px;
+  letter-spacing: 1.5px;
 }
 
 a:hover {
@@ -67,9 +70,19 @@ a:hover {
 }
 
 a > img {
-	display:inline;
-	height:5em;
-	width:5em;
+  display:inline;
+  height:5em;
+  width:5em;
+}
+
+p img {
+  height: 1.5em;
+  width: auto;
+  margin: 8px;
+}
+
+#title {
+  font-family: 'Libre Baskerville', serif;
 }
 
 .contact {
@@ -77,12 +90,12 @@ a > img {
   color: white;
   text-align: center;
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   padding-bottom: 5%;
 }
 
 .contact h4 {
-  font-size: 40px;
+  font-size: 55px;
   padding: 5%;
 }
 
@@ -96,17 +109,18 @@ a > img {
   padding: 2%;
   color: #e9e4f8;
   text-decoration: none;
+
 }
 
 .contact-buttons {
   background: #242897;
-  #242897
-}
-
-.end {
-  background: #1f2486;
-  color: white;
   text-align: center;
   width: 100%;
-  font-size: 16px;
+  left: 0;
+}
+
+.contact-buttons img {
+  height: 4em;
+  width: auto;
+  margin: 1%;
 }
